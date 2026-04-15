@@ -7,11 +7,12 @@ public class Conta {
 
     public Conta() {}
 
-    public Conta(Pessoa titular, String agencia, String numeroConta, String banco) {
+    public Conta(Pessoa titular, String agencia, String numeroConta, String banco, double saldo) {
         this.titular = titular;
         this.agencia = agencia;
         this.numeroConta = numeroConta;
         this.banco = banco;
+        this.saldo = saldo;
     }
 
     public Pessoa getTitular() {
